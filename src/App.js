@@ -1,15 +1,14 @@
 import List from "./List";
-import data from "./data";
 
 function App() {
   return (
     <div className="App">
-      <h2>
-        Title
-      </h2>
+      <div className="container">
+        <h2 className="title">Next meetings in agenda</h2>
 
-      <List />
-    </div>
+        <List />
+      </div>
+    </div >
   );
 }
 export default App;

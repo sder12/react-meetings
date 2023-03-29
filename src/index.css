@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --dark-blue: #03045eff;
+  --dark-blue: rgb(152, 153, 255);
   --secondary-blue: #0077b6ff;
   --primary-blue: rgb(56, 146, 194);
   --light-blue: #90e0efff;
@@ -239,6 +239,7 @@ article .person-info p {
   width: 100%;
 }
 
+/* BTN */
 .btn-group {
   display: flex;
   display: -moz-flex;
