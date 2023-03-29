@@ -187,10 +187,9 @@ article {
 }
 
 article .person-info p {
-  font-size: 0.78rem;
+  font-size: .86rem;
   color: var(--bg-blue);
-  font-style: italic;
-  width: 100%;
+  width: 90%;
 }
 
 /* BTN */
