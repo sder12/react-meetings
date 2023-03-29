@@ -3,11 +3,14 @@ import List from "./List";
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <h2 className="title">Next meetings in agenda</h2>
+      {/* TITLE */}
+      <h1 className="title">Next meetings in agenda</h1>
 
+
+      <main className="container">
         <List />
-      </div>
+      </main>
+
     </div >
   );
 }
