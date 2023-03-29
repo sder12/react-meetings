@@ -15,6 +15,10 @@ function List() {
         setPeople([]);
     }
 
+    const resetAll = () => {
+        setPeople(data)
+    }
+
     //COMPONENT
     return (
         <>
@@ -47,7 +51,7 @@ function List() {
 
             {/* BTNS */}
             <div className="btn-group">
-                <button type="button" className="btn btn-reset">reload</button>
+                <button type="button" className="btn btn-reset" onClick={resetAll}>reload</button>
                 <button type="button" className="btn btn-delete" onClick={deleteAll}>delete all</button>
             </div>
 
