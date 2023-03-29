@@ -4,7 +4,13 @@ import data from "./data";
 function List() {
     //DATA
     const [people, setPeople] = useState(data);
-    // console.log(people)
+
+    //FUNCTIONS
+    const cancelMeet = (id) => {
+        const newPeople = people.filter((person) => person.id !== id);
+        setPeople(newPeople)
+    }
+
     //COMPONENT
     return (
         <>
@@ -23,7 +29,7 @@ function List() {
                                             <div className="person-action">
                                                 <p>{person.nome}</p>
 
-                                                <button type="button" className="btn"> cancel </button>
+                                                <button type="button" className="btn" onClick={() => cancelMeet(person.id)}> cancel </button>
                                             </div>
                                             <p>{person.stato}</p>
                                         </div>
