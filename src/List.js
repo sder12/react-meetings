@@ -3,13 +3,18 @@ import data from "./data";
 
 function List() {
     //DATA
-
+    const [people, setPeople] = useState(data);
+    console.log(people)
     //COMPONENT
     return (
         <>
             {/* LIST OF MEETINGS */}
             <div>
-                List
+                {
+                    people.map((person) => {
+                        console.log(person.nome)
+                    })
+                }
             </div>
 
             {/* BTNS */}
