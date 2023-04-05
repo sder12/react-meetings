@@ -2,7 +2,7 @@
 <hr/>
 
 ## First React project
-Create a dsashboard similar to an agenda by using useState Hook
+Create a dashboard similar to an agenda by using useState Hook
 
 <img src="https://img.shields.io/badge/REACT-%5E18.2.0-blue" alt="react badge" /> 
 <hr/>
